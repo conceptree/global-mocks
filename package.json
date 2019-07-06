@@ -1,0 +1,27 @@
+{
+  "name": "global-mocks",
+  "version": "1.0.0",
+  "description": "This is based on a mock-server package abstraction that ables you to create you global mock server for your different applications.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conceptree/global-mocks.git"
+  },
+  "keywords": [
+    "mocks",
+    "server",
+    "data",
+    "express",
+    "nodejs"
+  ],
+  "author": "Nuno Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conceptree/global-mocks/issues"
+  },
+  "homepage": "https://github.com/conceptree/global-mocks#readme"
+}
