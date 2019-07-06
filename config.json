@@ -1,9 +1,16 @@
 {
     "services": [
         {
-            "name":"nuno-service",
+            "name":"global-service",
             "port":9001,
-            "host":"127.0.0.1"
+            "host":"127.0.0.1",
+            "methods":[
+                {
+                    "type": "get",
+                    "path": "/api/users/",
+                    "mocks": "users.json"
+                }
+            ]
         }
     ]
 }

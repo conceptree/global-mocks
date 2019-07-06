@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/conceptree/global-mocks/issues"
   },
-  "homepage": "https://github.com/conceptree/global-mocks#readme"
+  "homepage": "https://github.com/conceptree/global-mocks#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
 }
