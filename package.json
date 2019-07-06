@@ -1,7 +1,7 @@
 {
   "name": "global-mocks",
   "version": "1.0.0",
-  "description": "This is based on a mock-server package abstraction that ables you to create you global mock server for your different applications.",
+  "description": "If you are looking for a simple server that can provide your application requests with some mocked data without any fancy tricks, this project will help you out.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
