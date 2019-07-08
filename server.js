@@ -46,6 +46,7 @@ function startTheServer(serviceIndex) {
 			var httpServer = http.createServer(app);
 		}catch(e){
 			console.log('Unable to create server! Please try again!');
+			process.exit();
 		}
 	} else {
 		try {

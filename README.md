@@ -13,20 +13,38 @@ A simple implementation based on an express application server that, thought a s
 
 ### config.json
     {
-      "services": [
-          {
-              "name":"global-service",
-              "port":9001,
-              "host":"127.0.0.1",
-              "methods":[
-                  {
-                      "type": "get",
-                      "path": "/api/users/",
-                      "mocks": "users.json"
-                  }
-              ]
-          }
-      ]
-    }
+    "services": [
+        {
+            "name":"http-service",
+            "port":9001,
+            "type":"http",
+            "host":"127.0.0.1",
+            "methods":[
+                {
+                    "type": "get",
+                    "path": "/api/users/",
+                    "mocks": "users.json"
+                }
+            ]
+        },
+        {
+            "name":"https-service",
+            "port":9002,
+            "type":"https",
+            "options":{
+                "key":"./data/server.key",
+                "cert":"./data/server.cert"
+            },
+            "host":"127.0.0.1",
+            "methods":[
+                {
+                    "type": "get",
+                    "path": "/api/users/",
+                    "mocks": "users.json"
+                }
+            ]
+        }
+    ]
+}
 
 ### Have fun! 
